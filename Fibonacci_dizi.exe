@@ -1,0 +1,13 @@
+//dizi ile fibonacci tanýmlamak
+#include<stdio.h>
+int main()
+{
+	int a[20],i;
+	a[0]=1;
+	a[1]=1;
+	
+	for(i=0;i<20;i++){
+		printf("%d ",a[i]);
+	}
+	return 0;
+}
